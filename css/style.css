@@ -222,11 +222,11 @@
 
 .iconimg
 {
-	
+
 	width: 55%;
 	background-color: #131313;
 	max-height: 200px;
-	max-width: 200px; 
+	max-width: 200px;
 	min-height: 200px;
 	min-width: 200px;
 	border-radius: 50%;
@@ -234,7 +234,7 @@
 	padding-top: 50px;
 	font-size: 36px;
 	color: white;
-	
+
 }
 .content
 {
@@ -302,4 +302,192 @@ opacity: 0.9;
 .centercont
 {
 	margin-bottom: 50px;
+}
+
+/*---- dmytro ------*/
+.how-to-consume {
+    margin: 0px;
+    padding: 0px;
+}
+
+.consume {
+    background: #dbdde0;
+}
+
+.consume-top h2 {
+    margin: 0px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: #333;
+    line-height: 0.8em;
+}
+
+.consume-top h2 span {
+    color: #08b6e6;
+}
+
+.consume-top h4 {
+    font-weight: bold;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+}
+
+.options {
+    padding-top: 20px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.option-left, .option-center, .option-right {
+    height: 30vh;
+}
+
+.icon-num {
+    float: left;
+}
+
+.option-left p {
+    margin-left: 15px;
+    float: left;
+    color: #2ea3f2;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-left-link {
+    height: 50px;
+    width: 50px;
+}
+
+.option-center p {
+    margin-left: 15px;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.icon-table {
+    width: 68%;
+}
+
+.td-right-icon {
+    height: 35px;
+    width: 100px;
+}
+
+.td-left-icon {
+    margin-left: 15px;
+}
+
+.option-right p {
+  margin-left: 15px;
+  float: left;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+.footer {
+    background: black;
+}
+
+.footer-left, .footer-left-content {
+  position: relative;
+  max-width: 550px;
+  margin: 30px auto;
+  padding-left: 20px;
+}
+
+.footer-right {
+    margin: 40px auto;
+    padding-right: 30px;
+}
+
+.footer-left-content div {
+    color: white;
+}
+
+.footer-left-logo {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.footer-left-content h5 {
+    color: white;
+}
+
+.footer-right-content {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-right-content h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-right-button {
+    text-align: center;
+}
+
+.right-btn {
+    padding: 0.4em 1.1em;
+    border-radius: 3px;
+    border: 2px solid;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.copyright {
+    margin: 0px;
+    padding: 0px;
+    background: #1e211d;
+}
+.footer-legalese {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-legalese div {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (min-width: 992px) and (max-width: 1152px) {
+    .option {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    .option-left {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 527px) {
+    .how-to-consume {
+        width: 110.5vh;
+    }
+    .footer-left, .footer-left-content {
+        padding-left: 5px;
+    }
 }
