@@ -90,3 +90,220 @@
 		height: auto;
 	}
 }
+
+* {
+	margin:0;
+	padding: 0;
+}
+.top
+{
+	background-color: #131313;
+}
+.top h1
+{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bluetitle
+{
+	color:  #19aad7;
+}
+.contenttop
+{
+	color: white;
+	margin-bottom: 30px;
+}
+
+.img-responsive
+{
+	height: auto;
+	max-width: 100%;
+	display:block;
+}
+
+.contenttop h3
+{
+	color: #19aad7;
+	text-align: center;
+}
+
+.contenttop span
+{
+	color: #19aad7;
+	font-size: 12px;
+
+}
+.contenttop span:hover {
+	color:white;
+	transition-duration: 0.5s;
+}
+.older
+{
+	color:#1FA9E6;
+	margin-bottom: 10px;
+
+}
+
+.button
+{
+	text-align: center;
+}
+.top .button input
+{
+	font-size:20px;
+	border:2px solid #19aad7;
+	color:#19aad7;
+	width: 250px;
+	text-align: center;
+	background-color: #131313;
+	margin-bottom:10vh;
+	padding:8px;
+}
+
+.top .button input:hover
+{
+	background-color:#19aad7;
+	color: white;
+	border:2px solid white;
+	opacity: 0.9;
+}
+
+.mainhead
+{
+	background-color: white;
+}
+.mainhead h1
+{
+	margin-bottom: 30px;
+}
+.news
+{
+	margin-bottom: 25px;
+}
+.news .img-responsive
+{
+	float: left;
+	height: auto;
+	max-width: 100%;
+	display:block;
+}
+.textblock
+{
+	padding-left: 170px;
+}
+.widjet
+{
+	width: 65%;
+	height: 600px;
+	position:absolute;
+	background-color: #95979a;
+}
+
+.h4center{
+	margin-top: 200px;
+}
+
+.widjet h4{
+	text-align: center;
+	font-size: 24px;
+}
+
+.title h2
+{
+	font-size:20px;
+}
+.iconcont
+{
+	background-color: #95979a;
+}
+.iconcont h1{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.iconimg
+{
+	
+	width: 55%;
+	background-color: #131313;
+	max-height: 200px;
+	max-width: 200px; 
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 36px;
+	color: white;
+	
+}
+.content
+{
+	margin-bottom: 50px;
+}
+
+.footer
+{
+	background-color: #131313;
+	color:white;
+}
+
+.footercont h1
+{
+	margin-top:65px;
+}
+
+.footercont p
+{
+	margin-top: 50px;
+	color: white;
+	margin-bottom: 50px;
+	font-size:12px;
+}
+
+.upperbutton
+{
+	margin-top:65px;
+	text-align: center;
+}
+.footercont .button
+{
+margin-top: 85px;
+}
+.footercont .button input
+{
+	font-size:20px;
+	border:2px solid white;
+	color:white;
+	width: 300px;
+	text-align: center;
+	background-color: #131313;
+	margin-bottom:10vh;
+	border-radius: 8px;
+	padding:8px;
+	font-size:16px;
+}
+.footercont .button input:hover
+{
+background-color: white;
+color: black;
+opacity: 0.9;
+}
+.end
+{
+	background-color: black;
+}
+.end p
+{
+	margin-top:5px;
+	text-align: center;
+	color: white;
+	font-size:10px;
+}
+.centercont
+{
+	margin-bottom: 50px;
+}
