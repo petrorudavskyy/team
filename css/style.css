@@ -30,7 +30,13 @@
 	width: 100%;
 }
 
-
+@media (max-width: 768px) {
+	.jumbotron {
+		float: right;
+		height: 400px;
+		background: url("../img/banner.png") right no-repeat;
+	}
+}
 
 .navbar {
 	margin-bottom: 0px;
@@ -51,8 +57,7 @@
 	margin-left: 30px;
 }
 
-.submit {
-	display: flex;
+.submit {display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -241,11 +246,6 @@
 	color: white;
 
 }
-.content
-{
-	margin-bottom: 50px;
-}
-
 .footer
 {
 	background-color: #131313;
@@ -451,12 +451,13 @@ opacity: 0.9;
 }
 
 .footer-right-button {
+	margin-top: 50px;
   text-align: center;
 }
 
 .right-btn {
   padding: 0.4em 1.1em;
-  border-radius: 3px;
+  border-radius: 8px;
   border: 2px solid;
   text-decoration: none;
   font-size: 22px;
@@ -469,7 +470,7 @@ opacity: 0.9;
 }
 
 .footer-legalese {
-  height: 8vh;
+  height: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -597,4 +598,8 @@ margin-bottom: 50px;
 .block1 {
 	margin: 20px;
 }
+}
+
+.eparagraph{
+	color: black;
 }
